@@ -1,7 +1,8 @@
-import { icons, images } from "./";
+import  images from "../constant/images";
+import  icons from "../constant/icons";
 
 const myProfile = {
-    name: "ByProgrammers",
+    name: "Bellirae",
     profile_image: images.profile,
     address: "No. 88, Jln Padungan, Kuching"
 }
