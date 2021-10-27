@@ -48,8 +48,8 @@ const CustomDrawerContent = ({navigation, selectedTab, setSelectedTab}) => {
         }}>
             <View style={{flex: 1, paddingHorizontal: SIZES.radius}}>
                 {/* close button */}
-                    <View style={{alignItems: "flex-start", justifyContent:"center"}} onPress={() => navigation.closeDrawer()}>
-                        <TouchableOpacity style={{alignItems:"center", justifyContent:"center"}} >
+                    <View style={{alignItems: "flex-start", justifyContent:"center"}} >
+                        <TouchableOpacity style={{alignItems:"center", justifyContent:"center"}} onPress={() => navigation.closeDrawer()} >
                             <Image source={icons.cross} style={{width: 35, height: 35, tintColor:COLORS.white}} />
                             </TouchableOpacity>
 
